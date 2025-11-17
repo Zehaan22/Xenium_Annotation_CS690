@@ -1,0 +1,6 @@
+index,Patient,Percent_mito,nCount_RNA,nFeature_RNA,celltype_major,celltype_minor,celltype_subset,subtype,gene_module,Calls,normal_cell_call,CNA_value
+CID3586_AAGACCTCAGCATGAG,CID3586,1.506221349,1.506221349,1689,Endothelial,Endothelial ACKR1,Endothelial ACKR1,HER2+,no_gene_module,no_scTYPER_call,no_inferCNV_call,no_CNA_value
+CID3586_AAGGTTCGTAGTACCT,CID3586,5.793742758,5.793742758,779,Endothelial,Endothelial ACKR1,Endothelial ACKR1,HER2+,no_gene_module,no_scTYPER_call,no_inferCNV_call,no_CNA_value
+CID3586_ACCAGTAGTTGTGGCC,CID3586,1.383238405,1.383238405,514,Endothelial,Endothelial ACKR1,Endothelial ACKR1,HER2+,no_gene_module,no_scTYPER_call,no_inferCNV_call,no_CNA_value
+CID3586_ACCCACTAGATGTCGG,CID3586,1.923076923,1.923076923,609,Endothelial,Endothelial ACKR1,Endothelial ACKR1,HER2+,no_gene_module,no_scTYPER_call,no_inferCNV_call,no_CNA_value
+CID3586_ACTGATGGTCAACTGT,CID3586,13.32554062,13.32554062,807,Endothelial,Endothelial ACKR1,Endothelial ACKR1,HER2+,no_gene_module,no_scTYPER_call,no_inferCNV_call,no_CNA_value

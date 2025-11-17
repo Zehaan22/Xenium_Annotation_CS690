@@ -1,0 +1,6 @@
+index,cell_id,transcript_counts,control_probe_counts,control_codeword_counts,total_counts,cell_area,nucleus_area,region,cell_type
+0,1,28,1,0,29,58.38703125,26.642187500000002,cell_circles,DCIS_2
+1,2,94,0,0,94,197.01671875,42.13078125,cell_circles,DCIS_2
+2,3,9,0,0,9,16.25625,12.68890625,cell_circles,Unlabeled
+3,4,11,0,0,11,42.311406250000005,10.06984375,cell_circles,Invasive_Tumor
+4,5,48,0,0,48,107.6525,37.479687500000004,cell_circles,DCIS_2
