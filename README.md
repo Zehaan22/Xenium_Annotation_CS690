@@ -29,31 +29,21 @@ Key metrics: **Accuracy**, **ARI**, **F1-scores**, **UMAP visualization**, **spa
 
 Xenium_Annotation_CS690/
 
-- data/ (Can be found at https://drive.google.com/file/d/1LANtYv_WbVHrLxBqG41uPC7w4F9UItgA/view?usp=sharing)
-	- xenium/ # Xenium spatial dataset
-	- scrna/ # scRNA-seq reference dataset
-
-- models/
-	- SCModal/ # Base SCModal implementation
-	- Niche_SCModal/ # FiLM-based niche-conditioned model
-	- Graph_SCModal/ # GNN-augmented SCModal encoder
-
-- utils/
-	- graph.py # kNN graph construction for spatial coordinates
-	- losses.py # Alignment, adversarial, geometric, MNN losses
-	- preprocessing.py # Gene matching, normalization
-
-- notebooks/
-	- SCArches_Experiment.ipynb
-	- Niche_SCModal.ipynb
-	- Graph_SCModal.ipynb
-
-- images/
-	- SCArches_LatentMixing.png
-	- Niche_SCModal_UMAP.png
-	- Graph_SCModal_UMAP.png
-	- SingleR_vs_KNN.png
-
-- report/
+- Final_Submissions/
 	- Final_Report.pdf
-	- Presentation.pdf
+	- Final_Presentation.pdf
+
+- GNN_approach/Graph_Based_Approaches_Scratch : Experimental work not used for final model
+
+- Graph_SCModal/
+	- graph_SC_Modal_testing.ipynb - run on subset dataset
+    - graph_SCModal_final_run.ipynb - run on complete dataset
+
+- SCarches_Xenium/
+  	- scarches_for_xenium.ipynb - scarches run on complete dataset
+
+- Niche_SCModal/
+	- Niche_SCModal_subset.ipynb - run on subset dataset
+   	- Niche_SCModal_SingleR.ipynb - run with SingleR integration
+   	- Niche_SCModal_final.ipynb - run on full dataset
+   	- Base_SCModal.ipynb - run of base SCModal
