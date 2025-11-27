@@ -28,32 +28,32 @@ Key metrics: **Accuracy**, **ARI**, **F1-scores**, **UMAP visualization**, **spa
 ## 📂 Repository Structure
 
 Xenium_Annotation_CS690/
-│
-├── data/
-│ ├── xenium/ # Xenium spatial dataset
-│ └── scrna/ # scRNA-seq reference dataset
-│
-├── models/
-│ ├── SCModal/ # Base SCModal implementation
-│ ├── Niche_SCModal/ # FiLM-based niche-conditioned model
-│ └── Graph_SCModal/ # GNN-augmented SCModal encoder
-│
-├── utils/
-│ ├── graph.py # kNN graph construction for spatial coordinates
-│ ├── losses.py # Alignment, adversarial, geometric, MNN losses
-│ └── preprocessing.py # Gene matching, normalization
-│
-├── notebooks/
-│ ├── SCArches_Experiment.ipynb
-│ ├── Niche_SCModal.ipynb
-│ └── Graph_SCModal.ipynb
-│
-├── images/
-│ ├── SCArches_LatentMixing.png
-│ ├── Niche_SCModal_UMAP.png
-│ ├── Graph_SCModal_UMAP.png
-│ └── SingleR_vs_KNN.png
-│
-├── report/
-│ ├── Final_Report.pdf
-│ └── Presentation.pdf
+
+- data/
+	- xenium/ # Xenium spatial dataset
+	- scrna/ # scRNA-seq reference dataset
+
+- models/
+	- SCModal/ # Base SCModal implementation
+	- Niche_SCModal/ # FiLM-based niche-conditioned model
+	- Graph_SCModal/ # GNN-augmented SCModal encoder
+
+- utils/
+	- graph.py # kNN graph construction for spatial coordinates
+	- losses.py # Alignment, adversarial, geometric, MNN losses
+	- preprocessing.py # Gene matching, normalization
+
+- notebooks/
+	- SCArches_Experiment.ipynb
+	- Niche_SCModal.ipynb
+	- Graph_SCModal.ipynb
+
+- images/
+	- SCArches_LatentMixing.png
+	- Niche_SCModal_UMAP.png
+	- Graph_SCModal_UMAP.png
+	- SingleR_vs_KNN.png
+
+- report/
+	- Final_Report.pdf
+	- Presentation.pdf
