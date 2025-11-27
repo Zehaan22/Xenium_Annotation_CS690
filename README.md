@@ -47,3 +47,4 @@ Xenium_Annotation_CS690/
    	- Niche_SCModal_SingleR.ipynb - run with SingleR integration
    	- Niche_SCModal_final.ipynb - run on full dataset
    	- Base_SCModal.ipynb - run of base SCModal
+   	- SingleR/temp - helper files for Niche_SCModal_SingleR.ipynb
