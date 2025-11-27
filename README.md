@@ -29,7 +29,7 @@ Key metrics: **Accuracy**, **ARI**, **F1-scores**, **UMAP visualization**, **spa
 
 Xenium_Annotation_CS690/
 
-- data/
+- data/ (Can be found at https://drive.google.com/file/d/1LANtYv_WbVHrLxBqG41uPC7w4F9UItgA/view?usp=sharing)
 	- xenium/ # Xenium spatial dataset
 	- scrna/ # scRNA-seq reference dataset
 
